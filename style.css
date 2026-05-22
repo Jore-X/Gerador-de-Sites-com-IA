@@ -12,13 +12,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 .uptitle {
   color: #ffffff;
 }
 #titleHome {
+  text-align: center;
   font-size: 52px;
   font-weight: 800;
   color: #fafafa;
