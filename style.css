@@ -29,6 +29,7 @@ body {
 .subtitle {
   color: #71717a;
   margin-top: 16px;
+  font-size: 18px;
 }
 
 .box-entry {
@@ -45,7 +46,7 @@ textarea {
   resize: none;
   outline: none;
   background: transparent;
-  padding: 9px;
+  padding: 8px;
   color: #fafafa;
   font-size: 16px;
   border: none;

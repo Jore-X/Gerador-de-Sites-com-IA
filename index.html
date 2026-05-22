@@ -28,23 +28,18 @@
 
     <div class="box-entry">
       <textarea
+        class="textUser"
         placeholder="Descreva seu negócio. Ex: Cafeteria, Mercado etc."
       ></textarea>
 
-      <button id="button_generate">⚡Gerar</button>
+      <button id="button_generate" onclick="gerarCodigo()">⚡Gerar</button>
     </div>
     <div class="box-result">
-      <p class="code-block">
-        body {
-            color: red;
-            }
+      <p class="code-block"></p>
 
-            h1 {
-            color: black;
-            font-size: 20px;
-            }
-      </p>
       <iframe class="site-block"></iframe>
+
+      <script src="./script.js"></script>
     </div>
   </body>
 </html>
