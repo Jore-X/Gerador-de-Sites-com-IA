@@ -39,7 +39,7 @@ export default async function handler(req, res) {
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: "meta-llama/llama-prompt-guard-2-86m",
+        model: "qwen/qwen3.8-27b",
         messages: [
           {
             role: "user",
