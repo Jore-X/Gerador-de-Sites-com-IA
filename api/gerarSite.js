@@ -39,7 +39,7 @@ export default async function handler(req, res) {
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: "qwen/qwen3.8-27b",
+        model: "openai/gpt-oss-120b",
         messages: [
           {
             role: "user",
